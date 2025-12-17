@@ -1,0 +1,33 @@
+# Go build outputs
+/bin/
+/build/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go test outputs
+*.test
+*.out
+
+# Go workspace
+go.work
+go.work.sum
+
+# Vendor (kullanmıyorsan)
+vendor/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# GoLand / IntelliJ
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
